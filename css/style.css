@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'AR One Sans', sans-serif;
+    background-color: #fff;
+}
+
+input {
+    outline: none;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    margin-top: 20px;
+}
+
+.wrap__inp {
+    width: 120px;
+    height: 25px;
+}
+
+.wrap__btn {
+    font-family: 'AR One Sans', sans-serif;
+    text-align: center;
+    width: 70px;
+    height: 25px; 
+}
+
+.card__wrap {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.card__wrap-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 280px;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 30px;
+}
+
+.failed__img {
+    width: 130px;
+}

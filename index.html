@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2 class="title">Kim birinchi bo-rish-ga!</h2>
+
+        <div class="wrap">
+            <p class="wrap__title">Masofa</p>
+            <input type="tel" class="distance__inp">
+            <button class="wrap__btn" onclick="distanceFun()">Hisobla</button>
+        </div>
+
+        <div class="card__wrap">
+
+            <div class="card__wrap-item">
+                <div>
+                    <img class="card__wrap-item__img" src="img/walker.svg" alt="">
+                    <p class="card__wrap-item__title">Piyoda</p>
+                </div>
+                <p><b id="time__walker">N</b> soat</p>
+            </div>
+
+            <div class="card__wrap-item">
+                <div>
+                    <img class="card__wrap-item__img" src="img/bike.svg" alt="">
+                    <p class="card__wrap-item__title">Velosiped</p>
+                </div>
+                <p><b id="time__biker">N</b> soat</p>
+            </div>
+
+            <div class="card__wrap-item">
+                <div>
+                    <img class="card__wrap-item__img failed__img" src="img/car.svg" alt="">
+                    <p class="card__wrap-item__title">Mashina</p>
+                </div>
+                <p><b id="time__car">N</b> soat</p>
+            </div>
+
+            <div class="card__wrap-item">
+                <div>
+                    <img class="card__wrap-item__img-plane failed__img" src="img/plane.svg" alt="">
+                    <p class="card__wrap-item__title">Samalyot</p>
+                </div>
+                <p><b id="time__plane">N</b> soat</p>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
